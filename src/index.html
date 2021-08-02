@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Hungry People</title>
+</head>
+<body>
+    <header id="header">
+        <div class="wrapper">
+            <ul class="leftNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#specialties" class="go_to">Team</a></li>
+                <li><a href="#">Booking</a></li>
+            </ul>
+            <img src="./img/Vector.svg" alt="logo">
+            <ul class="rightNav">
+                <li><a href="#menu" class="go_to">Menu</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#events" class="go_to">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="timer">
+            <p>Left: <span>13:59</span></p>
+        </div>
+        <div class="workshedule">
+            Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+        </div>
+        <div class="centralwrapper">
+            <p>Restaurant</p>
+            <h1>Hungry People</h1>
+            <div class="yellowline"></div>
+        </div>
+        <a class="btn-round1 facebook" href="#"><img src="./img/facebook.svg" alt="facebook"></a>
+        <a class="btn-round1 twitter" href="#"><img src="./img/twitter.svg" alt="twitter"></a>
+        <a class="btn-round1 instagram" href="#"><img src="./img/instagram.svg" alt="instagram"></a>
+        <div class="buttons">
+            <button class="booktable btn-header">Book Table</button>
+            <button class="explore btn-header">Explore</button>
+        </div>
+        <a href="#booking" class="scrolldown go_to"><span><img src="./img/scrolldown.svg" alt="scrolldown"></span></a>
+        <div class="vertical_white_line left"></div>
+        <div class="vertical_white_line right"></div>
+        <div class="vertical_white_line central"></div>
+        <div class="vertical_white_line second"></div>
+    </header>
+
+    <div id="booking">
+        <div class="booking_main">
+            <div class="leftcontainer">
+                <h2>Book a Table</h2>
+                <div class="yellowline"></div>
+                <form action="">
+                    <div class="datainput">
+                        <div class="leftside">
+                            <input type="text" id="name" placeholder="Name">
+                            <input type="tel" id="phone" placeholder="Phone">
+                            <input type="date" id="date" placeholder="Date (mm/dd)">
+                        </div>
+                        <div class="rightside">
+                            <input type="email" id="email" placeholder="Email">
+                            <input type="number" id="people" placeholder="People">
+                            <input type="time" id="time" placeholder="Time">
+                        </div>
+                    </div>
+                    <input type="submit" id="submitbtn" value="Book Now">
+                </form>
+            </div>
+            <div class="rightcontainer">
+                <img src="./img/clock.png" alt="clock" >
+                <img src="./img/square.png" class="yellowsquare" alt="square">
+            </div>
+        </div>
+        <div class="booking_footer">
+            <p>Mon - Fri: <strong>8PM - 10PM</strong>, Sat - Sun: <strong>8PM - 3AM</strong>, Phone: <strong>+40 729 131 637/+40 726 458 782</strong></p>
+        </div>
+        
+    </div>
+
+    <div id="specialties">
+        <div class="vertical_white_line left"></div>
+        <div class="vertical_white_line right"></div>
+        <div class="vertical_white_line central"></div>
+        <div class="specialties_header"><p>Specialties</p></div>
+        <div class="owl-carousel owl-theme">
+            <div class="specialties_content item">
+                <div class="content_leftside">
+                    <img src="./img/rectangle.png" alt="rectangle">
+                    <img src="./img/square.png" class="square" alt="square">
+                </div>
+                <div class="content_rightside">
+                    <h3>Chocolate Pancakes</h3>
+                    <div class="yellowline"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+                    <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+            </div>
+            <div class="specialties_content item">
+                <div class="content_leftside">
+                    <img src="./img/rectangle.png" alt="rectangle">
+                    <img src="./img/square.png" class="square" alt="square">
+                </div>
+                <div class="content_rightside">
+                    <h3>Chocolate Pancakes</h3>
+                    <div class="yellowline"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+                    <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+            </div>
+            <div class="specialties_content item">
+                <div class="content_leftside">
+                    <img src="./img/rectangle.png" alt="rectangle">
+                    <img src="./img/square.png" class="square" alt="square">
+                </div>
+                <div class="content_rightside">
+                    <h3>Chocolate Pancakes</h3>
+                    <div class="yellowline"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+                    <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+            </div>
+            <div class="specialties_content item">
+                <div class="content_leftside">
+                    <img src="./img/rectangle.png" alt="rectangle">
+                    <img src="./img/square.png" class="square" alt="square">
+                </div>
+                <div class="content_rightside">
+                    <h3>Chocolate Pancakes</h3>
+                    <div class="yellowline"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+                    <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+            </div>
+            <div class="specialties_content item">
+                <div class="content_leftside">
+                    <img src="./img/rectangle.png" alt="rectangle">
+                    <img src="./img/square.png" class="square" alt="square">
+                </div>
+                <div class="content_rightside">
+                    <h3>Chocolate Pancakes</h3>
+                    <div class="yellowline"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+                    <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div class="menucontainer">
+            <h3>DELICIOUS MENU</h3>
+            <div class="yellowline"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+            <ul class="menunav">
+                <li><a href="#">SOUPE</a></li>
+                <li><a href="#">PIZZA</a></li>
+                <li><a href="#">PASTA</a></li>
+                <li><a href="#">DESERT</a></li>
+                <li><a href="#">WINE</a></li>
+                <li><a href="#">BEER</a></li>
+                <li><a href="#">DRINKS</a></li>
+            </ul>
+            <div class="pizza_wrapper">
+                <div class="pizza_container page">
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                </div>
+                <div class="pizza_container page">
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                </div>
+                <div class="pizza_container page">
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                    <p class='btn open-modal' data-modal="#modal1"><strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD</strong> <span>Integer ullamcorper neque eu purus euismod</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="events">
+        <div class="vertical_white_line left"></div>
+        <div class="vertical_white_line right"></div>
+        <div class="vertical_white_line central"></div>
+        <div class="events_header">
+            <h3>Private Events</h3>
+        </div>
+        <div class="events_container">
+            <div class="first_container">
+                <img src="./img/square.png" class="square1" alt="square">
+                <img src="./img/wedding.png" class="wedding" alt="wedding">
+                <div class="blackbg_left"><p>Weddings</p></div>
+            </div>
+            <div class="second_container">
+                <div class="blackbg_right"><p>Corporate Pzrties</p></div>
+                <img src="./img/corporate_pzrties.png" class="corporate_pzrties" alt="corporate_pzrties">
+                <img src="./img/square.png" class="square2" alt="square">  
+            </div>
+        </div>
+        <div class="events_footer">
+            <p>For private events please call: <strong>+40 729 131 637/+40 726 458 782</strong> or use the contact form.</p>
+        </div>
+    </div>
+
+    <div id='modal1' class='modal'>
+        <div class='content'>
+            <h1 class='title'>This is a modal</h1>
+            <p>Here is some text and stuff. Cool, click Ok!</p>
+            <a class='btn close-modal' data-modal="#modal1" href="#">Ok</a>
+        </div>	
+    </div>
+         
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

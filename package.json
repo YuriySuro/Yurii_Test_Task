@@ -1,0 +1,36 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch --dev --sync",
+    "build": "gulp build"
+  },
+  "browserslist": [
+    "Chrome > 80",
+    "IE > 10",
+    "Firefox > 77",
+    "Edge > 83",
+    "iOS > 13",
+    "ChromeAndroid 86"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "webpack-stream": "^6.1.2"
+  }
+}
