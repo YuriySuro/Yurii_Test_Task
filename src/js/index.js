@@ -17,8 +17,36 @@ $(document).ready(function() {
         }
     });
 
+    // Scroll Down
+    $(".go_to").click(function(e) { 
+        e.preventDefault();
+        var scroll_el = $(this).attr("href");
+        if($(scroll_el).length != 0) { 
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 250);
+        }
+        return false;
+    });
+
+    // Timer 
+    function getDate() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        if(m < 10) {
+            m = "0" + m;
+        }
+        if(h < 10) {
+            h = "0" + h;
+        }
+        $(".timer span").text(h + ":"+ m);
+        setInterval(function() {
+            getDate()
+        }, 30000);        
+    }
+    getDate();
+
     // Modal window
-    $(".modal").each( function(){
+    $(".modal").each( function() { 
         $(this).wrap('<div class="overlay"></div>')
     });
     
@@ -60,35 +88,7 @@ $(document).ready(function() {
         $(modal).removeClass("open");
         setTimeout(function(){	
             $(modal).parents(".overlay").removeClass("open");
-        }, 350);
-        
+        }, 350);    
     });
-
-    // Scroll Down
-    $(".go_to").click(function(e) { 
-        e.preventDefault();
-        var scroll_el = $(this).attr("href");
-        if($(scroll_el).length != 0) { 
-            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 250);
-        }
-        return false;
-    });
-
-    // Timer 
-    function getDate() {
-        var today = new Date();
-        var h = today.getHours();
-        var m = today.getMinutes();
-        if(m < 10) {
-            m = "0" + m;
-        }
-        if(h < 10) {
-            h = "0" + h;
-        }
-        $(".timer span").text(h + ":"+ m);
-        setInterval(function() {
-            getDate()
-        }, 1000);        
-    }
-    getDate();
 });
+
